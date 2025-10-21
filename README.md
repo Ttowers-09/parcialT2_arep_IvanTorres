@@ -44,8 +44,27 @@ Nos conectamos mediante ssh, tener en cuenta de guardar las .pem:
 - sudo dnf install java-17-amazon-corretto = Instalar java
 
 # Verificamos versiones de java y maven, ambas deben tener java 17:
-<<<<<<< HEAD
 ![conexion](images/versiones.png)
-=======
-![conexion](images/versiones.png)
->>>>>>> 43870cfe8439815edd1a4173b974820cdd18cfd0
+
+# Cllonamos el repositorio de gitHub:
+- git clone https://github.com/Ttowers-09/parcialT2_arep_IvanTorres.git
+
+# verificamos la clonacion:
+![conexion](images/clon.png)
+
+# Comandos para ejecutar:
+
+Estando dentro de cada una de las carpetas correspondiente math y proxy dependiendo la instancia ejecutamos:
+
+- mvn clean package.
+- ls tarjet/
+- java -jar tarjet/ACA SE COLOCA EL SNAPSHOT --server.port=#numero puerto
+
+# Ejecutamos
+![conexion](images/ejecucion.png)
+
+# Cambio para el funcionamiento
+![conexion](images/cambio.png)
+
+# Probar instancias
+![conexion](images/funcInst.png)
