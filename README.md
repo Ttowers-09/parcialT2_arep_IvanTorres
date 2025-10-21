@@ -1,4 +1,6 @@
 # Segundo Parcial Ivan F Torres
+# video de prueba:
+https://www.youtube.com/watch?v=n23DGdWiqpQ
 # Enunciado
 **Conjetura de Collatz:**
 
