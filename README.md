@@ -44,4 +44,8 @@ Nos conectamos mediante ssh, tener en cuenta de guardar las .pem:
 - sudo dnf install java-17-amazon-corretto = Instalar java
 
 # Verificamos versiones de java y maven, ambas deben tener java 17:
+<<<<<<< HEAD
 ![conexion](images/versiones.png)
+=======
+![conexion](images/versiones.png)
+>>>>>>> 43870cfe8439815edd1a4173b974820cdd18cfd0
