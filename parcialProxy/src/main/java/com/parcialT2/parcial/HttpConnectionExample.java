@@ -9,18 +9,21 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 
 import org.springframework.web.bind.annotation.GetMapping;
-
+import org.springframework.web.bind.annotation.RestController;
 import jakarta.servlet.http.HttpServletRequest;
 
+@RestController
 public class HttpConnectionExample {
 
     private static final String USER_AGENT = "Mozilla/5.0";
-    private static final String Url1 = "54.197.182.126:8081";
-    private static final String Url2 = "54.174.7.101:8082";
+    public static final String Url1 = "http://54.197.182.126:8081/collatz";
+    public static final String Url2 = "http://54.174.7.101:8082//collatz";
     public int bandera = 1;
     
     @GetMapping("/collatz")
-    public String robin (HttpServletRequest req)throws IOException{
+    public String collatz (HttpServletRequest req)throws IOException{
+        int bandera = 1;
+        System.out.println("Aca entra");
         if (bandera == 1){
             String parametros = req.getQueryString();
             bandera = 0;
